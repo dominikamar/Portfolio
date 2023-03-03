@@ -1,0 +1,40 @@
+@import './animations';
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+html {
+	font-size: 62.5%;
+	scroll-behavior: smooth;
+}
+body {
+	font-family: 'Roboto', sans-serif;
+	font-size: 1.6rem;
+	background-color: var(--light-grey);
+}
+.wrapper {
+	width: 100%;
+	max-width: 1400px;
+	margin: 0 auto;
+}
+
+.section {
+	padding: 2em 2em;
+}
+:root {
+	--main-color: rgb(219, 87, 57);
+	--main-color-light: rgba(251, 100, 66, 0.06);
+	--main-color-hover: rgb(176, 74, 51);
+	--header-color: rgb(74, 74, 158);
+	--dark-grey: rgb(51, 51, 51);
+	--dark-grey-hover: rgb(23, 23, 23);
+	--dark-grey-shadow: rgba(51, 51, 51, 0.216);
+	--white: #fff;
+	--blue-violet: rgb(74, 74, 158);
+	--blue: rgb(4, 92, 174);
+	--light-grey: #eee;
+	--orange-circle-color: rgb(219, 87, 57);
+	--blue-circle-color: rgb(4, 92, 174);
+	--purple-circle-color: rgb(74, 74, 158);
+}
